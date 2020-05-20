@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "AWAREKeys.h"
 #import "AWARESensorManager.h"
-#import "ESMScheduleManager.h"
+//#import "ESMScheduleManager.h"
 
 
 @interface AWARECore : NSObject <CLLocationManagerDelegate>

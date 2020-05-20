@@ -174,7 +174,7 @@ static AWARESensorManager * sharedSensorManager;
             }else if([setting isEqualToString:[NSString stringWithFormat:@"status_%@",SENSOR_ROTATION]]){
                 awareSensor = [[Rotation alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if([setting isEqualToString:[NSString stringWithFormat:@"status_%@",SENSOR_IOS_ESM]]){
-                awareSensor = [[IOSESM alloc] initWithAwareStudy:awareStudy dbType:dbType];
+//                awareSensor = [[IOSESM alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if ([setting isEqualToString:[NSString stringWithFormat:@"status_%@",SENSOR_PLUGIN_GOOGLE_ACTIVITY_RECOGNITION]]){
                 // iOS Activity Recognition API
                 awareSensor = [[IOSActivityRecognition alloc] initWithAwareStudy:awareStudy dbType:dbType];
@@ -195,7 +195,7 @@ static AWARESensorManager * sharedSensorManager;
             }else if([setting isEqualToString:[NSString stringWithFormat:@"status_%@",SENSOR_PLUGIN_BLE_HR]]){
                 awareSensor = [[BLEHeartRate alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if([setting isEqualToString:[NSString stringWithFormat:@"status_%@",SENSOR_PLUGIN_IOS_ESM]]){
-                awareSensor = [[IOSESM alloc] initWithAwareStudy:awareStudy dbType:dbType];
+//                awareSensor = [[IOSESM alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if([setting isEqualToString:[NSString stringWithFormat:@"status_%@", SENSOR_PLUGIN_FITBIT]]){
                 awareSensor = [[Fitbit alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if([setting isEqualToString:[NSString stringWithFormat:@"status_%@", SENSOR_PLUGIN_CONTACTS]]){
@@ -207,7 +207,7 @@ static AWARESensorManager * sharedSensorManager;
             }else if([setting isEqualToString:AWARE_PREFERENCES_STATUS_CONVERSATION]){
                 awareSensor = [[Conversation alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if ([setting isEqualToString:AWARE_PREFERENCES_STATUS_CALENDAR_ESM]){
-                awareSensor = [[CalendarESMScheduler alloc] initWithAwareStudy:awareStudy dbType:dbType];
+//                awareSensor = [[CalendarESMScheduler alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if ([setting isEqualToString:AWARE_PREFERENCES_STATUS_CALENDAR]){
                 awareSensor = [[Calendar alloc] initWithAwareStudy:awareStudy dbType:dbType];
             }else if ([setting isEqualToString:AWARE_PREFERENCES_STATUS_HEALTHKIT]){

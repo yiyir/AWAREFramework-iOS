@@ -33,7 +33,7 @@
 #import "Screen.h"
 #import "Timezone.h"
 #import "Wifi.h"
-#import "ESM.h"
+//#import "ESM.h"
 #import "SignificantMotion.h"
 
 /// Plugins
@@ -45,7 +45,7 @@
 #import "NTPTime.h"
 #import "OpenWeather.h"
 #import "PushNotification.h"
-#import "IOSESM.h"
+//#import "IOSESM.h"
 #import "IOSActivityRecognition.h"
 #import "Contacts.h"
 #import "Fitbit.h"
@@ -53,7 +53,7 @@
 #import "AmbientNoise.h"
 #import "GoogleLogin.h"
 #import "Conversation.h"
-#import "CalendarESMScheduler.h"
+//#import "CalendarESMScheduler.h"
 #import "Calendar.h"
 
 @interface AWARESensors : NSObject
