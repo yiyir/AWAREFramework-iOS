@@ -8,6 +8,12 @@
 
 #import "BaseESMView.h"
 
+@protocol WKWebViewDelegate <NSObject>
+
+- (void) setDelegateViews: (id) delegateView;
+
+@end
+
 @interface ESMWebView : BaseESMView <WKWebViewDelegate>
 
 @end
