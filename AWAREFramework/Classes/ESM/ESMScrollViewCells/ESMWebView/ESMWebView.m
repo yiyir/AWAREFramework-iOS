@@ -9,7 +9,7 @@
 #import "ESMWebView.h"
 
 @implementation ESMWebView{
-    UIWebView * webView;
+    WKWebView * webView;
 }
 
 /*
@@ -34,7 +34,7 @@
 
 - (void) addWebPageElement:(EntityESM *)esm withFrame:(CGRect) frame {
     
-    webView = [[UIWebView alloc] initWithFrame:CGRectMake(20,
+    webView = [[WKWebView alloc] initWithFrame:CGRectMake(20,
                                                         0,
                                                         frame.size.width-40,
                                                         self.mainView.frame.size.height*3)];
@@ -54,15 +54,15 @@
     [self refreshSizeOfRootView];
 }
 
-- (void)webViewDidStartLoad:(UIWebView *)webView {
+- (void)webViewDidStartLoad:(WKWebView *)webView {
     
 }
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView{
+- (void)webViewDidFinishLoad:(WKWebView *)webView{
     
 }
 
--(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
+-(void)webView:(WKWebView *)webView didFailLoadWithError:(NSError *)error{
     
 }
 

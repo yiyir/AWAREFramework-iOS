@@ -8,6 +8,6 @@
 
 #import "BaseESMView.h"
 
-@interface ESMWebView : BaseESMView <UIWebViewDelegate>
+@interface ESMWebView : BaseESMView <WKWebViewDelegate>
 
 @end
