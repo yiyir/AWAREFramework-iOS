@@ -14,7 +14,7 @@
 #import <net/if.h>
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import <UserNotifications/UserNotifications.h>
-#import <ESMSchedule.h>
+//#import <ESMSchedule.h>
 
 static AWARECore * sharedCore;
 
